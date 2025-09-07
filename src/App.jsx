@@ -3,21 +3,10 @@ import { motion, AnimatePresence, useDragControls  } from "framer-motion";
 import { Mail, Phone, MapPin, Github, Linkedin, ExternalLink, FolderGit2, GraduationCap, Cpu, ShieldCheck, Award, Download, Menu } from "lucide-react";
 import emailjs from "emailjs-com";
 
-// =============================
-// Single-file, production-ready React portfolio
-// - TailwindCSS styles
-// - Framer Motion micro-interactions
-// - Smooth scroll, skip-link, accessible landmarks
-// - Fully responsive with grid-based layout
-// =============================
 
-// ---- Editable profile image ----
-// Replace this with your image path or URL
-// Put my.gif in public/ (public/my.gif)
 const PROFILE_IMG = "/my.gif";
- // e.g. "/yamal.jpg" or an external URL
 
-// ---- Site content (pulled from resume) ----
+
 const SITE = {
   name: "Yamal Sharma",
   role: "Computer Science Student — AI/ML & Web-Dev",
